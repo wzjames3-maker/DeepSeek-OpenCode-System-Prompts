@@ -8,12 +8,12 @@
 .
 ├── README.md                                     # 项目说明文档
 ├── CLAUDE-FABLE-5.md                             # 参考原始文件 (Claude Fable 5)
-├── DeepSeek-Generic-System-Prompts.md            # 通用版 - 完整功能 (863 行)
-├── DeepSeek-Generic-System-Prompts-Compact.md    # 通用版 - 紧凑精简 (150 行) ⭐推荐日常使用
-├── DeepSeek-Generic-System-Prompts-Uncensored.md # 通用版 - 无安全审核 (144 行)
-├── DeepSeek-Opencode-AGENTS.md                   # OpenCode 版 - 完整功能 (509 行)
-├── DeepSeek-Opencode-AGENTS--Uncensored-Compact.md # OpenCode 版 - 紧凑无审核 (278 行) ⭐推荐 Agent 使用
-└── DeepSeek-Opencode-AGENTS-Uncensored.md        # OpenCode 版 - 无安全审核 (331 行)
+├── DeepSeek-Generic-System-Prompts.md            # 通用版 - 完整功能 (890 行)
+├── DeepSeek-Generic-System-Prompts-Compact.md    # 通用版 - 紧凑精简 (177 行) ⭐推荐日常使用
+├── DeepSeek-Generic-System-Prompts-Uncensored.md # 通用版 - 无安全审核 (171 行)
+├── DeepSeek-Opencode-AGENTS.md                   # OpenCode 版 - 完整功能 (529 行)
+├── DeepSeek-Opencode-AGENTS--Uncensored-Compact.md # OpenCode 版 - 紧凑无审核 (299 行) ⭐推荐 Agent 使用
+└── DeepSeek-Opencode-AGENTS-Uncensored.md        # OpenCode 版 - 无安全审核 (352 行)
 ```
 
 ## 🚀 快速开始
