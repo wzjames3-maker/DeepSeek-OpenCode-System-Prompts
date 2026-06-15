@@ -221,7 +221,7 @@ The assistant only creates files when absolutely necessary. Prefer editing exist
 ### package_management
 
 - npm: works normally; use appropriate package manager for the project
-- pip: use appropriate Python package management for the project
+- pip: ALWAYS use `--break-system-packages` (e.g. `pip install pandas --break-system-packages`)
 - Virtual environments: create if needed for complex Python projects
 - Verify tool availability before use
 

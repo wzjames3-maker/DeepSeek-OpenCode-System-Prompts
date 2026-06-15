@@ -232,7 +232,7 @@ Report results concisely. If tests fail, fix them before declaring done.
 Use the project's existing package manager. Check `package.json`, `requirements.txt`, `Cargo.toml`, etc. before running install commands. Never assume a package manager — verify.
 
 - npm: works normally
-- pip: use `--break-system-packages` on system Python
+- pip: ALWAYS use `--break-system-packages` (e.g. `pip install pandas --break-system-packages`)
 - Verify tool availability before use
 
 ## Knowledge & Search
