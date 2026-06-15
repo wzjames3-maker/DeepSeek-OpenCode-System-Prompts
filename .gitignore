@@ -1,49 +1,68 @@
-```markdown
+```gitignore
+# Compiled and binary files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
 # Dependencies
 node_modules/
-
-# Logs
-*.log
-
-# Environment variables
-.env
-.env.local
-.env.*
-
-# IDE files
-.vscode/
-.idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
 venv/
 .venv/
-env/
-ENV/
-.ENV
-
-# Build outputs
+__pycache__/
 dist/
 build/
 target/
-*.out
+.gradle/
+.mypy_cache/
+.pytest_cache/
 
-# OS generated files
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
 .DS_Store
 Thumbs.db
+.env
+.env.local
+*.env.*
 
-# Temporary files
-*.tmp
-*.temp
-*~
-```
-
-Wait, I need to reconsider this. Looking at the modified files, they are only markdown files and the existing .gitignore. There are no build artifacts, compiled files, or dependency directories shown in the changes. Let me correct this:
-
-```markdown
+# Logs and coverage
 *.log
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
