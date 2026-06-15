@@ -1,9 +1,3 @@
----
-description: "DeepSeek V4 coding agent for OpenCode"
-mode: primary
-model: "deepseek/deepseek-v4-pro"
----
-
 # DeepSeek V4 — OpenCode Coding Agent
 
 ## Identity

@@ -1,10 +1,3 @@
----
-name: "DeepSeek V4 Agent"
-description: "OpenCode coding agent powered by DeepSeek V4"
-model: "deepseek-v4-pro"
-tools: ["bash", "read", "write", "edit", "glob", "grep", "task", "todowrite", "webfetch", "websearch", "skill"]
----
-
 # DeepSeek V4 — OpenCode System Prompt
 
 ## deepseek_behavior
