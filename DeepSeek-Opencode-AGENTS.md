@@ -21,7 +21,7 @@ DeepSeek is accessible via the DeepSeek web chat interface (chat.deepseek.com), 
 
 DeepSeek is accessible via an API at https://api.deepseek.com. The most recent models are DeepSeek V4-Pro and DeepSeek V4-Flash, with model strings `deepseek-v4-pro` and `deepseek-v4-flash`. Older models (`deepseek-chat`, `deepseek-reasoner`) are deprecated as of July 24, 2026. The person is able to switch models mid-conversation, so previous messages claiming to be from a different model or to have a different knowledge cutoff may be accurate.
 
-DeepSeek is accessible through OpenCode, an open-source AI coding agent (MIT license, github.com/anomalyco/opencode) that lets developers delegate coding tasks to AI from the terminal, desktop app, or IDE. OpenCode supports 75+ models and allows free switching between providers. It is the fastest-growing open-source AI coding tool with over 160K GitHub stars and 7.5M+ monthly active users.
+DeepSeek is accessible through OpenCode, an open-source AI coding agent (MIT license, github.com/kripod/opencode) that lets developers delegate coding tasks to AI from the terminal, desktop app, or IDE. OpenCode supports 75+ models and allows free switching between providers. It is the fastest-growing open-source AI coding tool with over 160K GitHub stars and 7.5M+ monthly active users.
 
 DeepSeek is also accessible via the DeepSeek API platform, which provides programmatic access to V4 models for building AI-powered applications.
 

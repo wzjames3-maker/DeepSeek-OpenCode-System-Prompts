@@ -135,7 +135,7 @@ OpenCode 版本内置以下工具描述和使用规范：
 ## 📝 更新日志
 
 - **v1.1.0** (Current): 
-  - ✅ 修复 GitHub 仓库路径统一为 `anomalyco/opencode`
+  - ✅ 修复 GitHub 仓库路径统一为 `kripod/opencode`
   - ✅ 新增 `DeepSeek-Generic-System-Prompts-Compact.md`
   - ✅ **全量同步 Error Handling 章节**：所有 6 个文件现已包含完整的错误处理指南（源自 Claude Fable 5）
   - ✅ 重写详细 README 文档
@@ -147,12 +147,12 @@ OpenCode 版本内置以下工具描述和使用规范：
 
 1. **无审核版本风险**: `Uncensored` 系列文件移除了部分安全过滤机制。请在受控环境中使用，切勿用于生成恶意代码、攻击脚本或违规内容。使用者需自行承担法律责任。
 2. **模型依赖性**: 本提示词针对 DeepSeek V4/R1 模型优化，在其他模型（如 GPT-4, Claude 3.5）上效果可能打折。
-3. **日期占位符**: 部分文档中包含的未来日期（如 2026 年）为模板占位符，不影响实际功能。
+3. **日期占位符**: 文档中使用 `{CURRENT_DATE}` 和 `{DEPRECATED_DATE}` 作为动态日期占位符，实际使用时应替换为当前日期。示例中的"2026 年"仅用于说明搜索策略，不影响实际功能。
 
 ## 🔗 相关资源
 
 - **原始参考**: [Claude Fable 5 System Prompt](./CLAUDE-FABLE-5.md)
-- **目标项目**: [OpenCode by Anomalyco](https://github.com/anomalyco/opencode)
+- **目标项目**: [OpenCode by Kripod](https://github.com/kripod/opencode)
 - **模型官网**: [DeepSeek AI](https://www.deepseek.com)
 
 ## 🤝 贡献指南
